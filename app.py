@@ -15,7 +15,8 @@ nltk.download('stopwords')
 
 from nltk.corpus import stopwords
 
-
+import nltk
+nltk.download('punkt')
 #
 def transform_text(text):
     text = text.lower()
